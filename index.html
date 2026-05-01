@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Radar Conservador Brasil - Notícias, Política, Eleições e Opinião Conservadora</title>
+
+  <meta name="description" content="Radar Conservador Brasil: notícias, política, eleições, pesquisas eleitorais registradas, Congresso, Governo, opinião conservadora, educação, concursos e qualificação profissional." />
+  <meta name="keywords" content="Radar Conservador Brasil, notícias conservadoras, política Brasil, eleições 2026, pesquisas eleitorais, Congresso Nacional, Governo Federal, direita Brasil, opinião conservadora, concursos, ENEM, qualificação profissional, DB ENEM, Gabarito Max, Matriz Educacional" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Radar Conservador Brasil" />
+  <link rel="canonical" href="https://cincoregioes-star.github.io/site_noticias_beberibe_oficial_3/" />
+
+  <meta property="og:title" content="Radar Conservador Brasil - Política, Eleições e Opinião Conservadora" />
+  <meta property="og:description" content="Notícias, política, eleições, pesquisas eleitorais registradas, Congresso, Governo e opinião com visão conservadora." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cincoregioes-star.github.io/site_noticias_beberibe_oficial_3/" />
+  <meta property="og:image" content="https://cincoregioes-star.github.io/site_noticias_beberibe_oficial_3/radar-conservador-brasil-logo.png" />
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"NewsMediaOrganization",
+    "name":"Radar Conservador Brasil",
+    "url":"https://cincoregioes-star.github.io/site_noticias_beberibe_oficial_3/",
+    "description":"Portal de notícias, política, eleições, pesquisas eleitorais registradas e opinião com visão conservadora.",
+    "areaServed":{"@type":"Country","name":"Brasil"},
+    "sameAs":[
+      "https://cincoregioes-star.github.io/DB-ENEM/",
+      "https://cincoregioes-star.github.io/oficial-portal-gabaritomax/",
+      "https://cincoregioes-star.github.io/matriz-educacional/"
+    ]
+  }
+  </script>
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+
+    :root{
+      --azul:#071b3d;
+      --azul2:#102f63;
+      --verde:#0b6b3a;
+      --verde2:#064725;
+      --dourado:#f2c230;
+      --vermelho:#b30000;
+      --bg:#f4f6f8;
+      --texto:#242424;
+      --muted:#5f6b7a;
+      --card:#ffffff;
+      --shadow:0 10px 26px rgba(0,0,0,.12);
+      --radius:16px;
+    }
+
+    body{
+      font-family:'Segoe UI',Arial,sans-serif;
+      background:var(--bg);
+      color:var(--texto);
+      line-height:1.65;
+    }
+
+    .ticker-wrapper{
+      background:#0b0f17;
+    }
+
+    .ticker-label{
+  background:linear-gradient(135deg,#009739,#006b2e);
+      color:#fff;
+      text-align:center;
+      padding:9px 12px;
+      font-weight:900;
+      text-transform:uppercase;
+      font-size:14px;
+      letter-spacing:.3px;
+    }
+
+    .ticker-container{
+      height:40px;
+      overflow:hidden;
+      display:flex;
+      align-items:center;
+      border-bottom:1px solid #232323;
+    }
+
+    .ticker-content{
+      display:flex;
+      gap:50px;
+      white-space:nowrap;
+      color:#fff;
+      padding-left:20px;
+      animation:ticker 45s linear infinite;
+      font-size:15px;
+      font-weight:700;
+    }
+
+    @keyframes ticker{
+      0%{transform:translateX(0);}
+      100%{transform:translateX(-50%);}
+    }
+
+    nav{
+      background:linear-gradient(135deg,var(--azul),var(--azul2));
+      position:sticky;
+      top:0;
+      z-index:100;
+      box-shadow:0 2px 10px rgba(0,0,0,.18);
+      border-bottom:3px solid var(--dourado);
+    }
+
+    .nav-container{
+      max-width:1400px;
+      margin:0 auto;
+      padding:7px 8px;
+      display:flex;
+      justify-content:center;
+      gap:6px;
+      flex-wrap:wrap;
+    }
+
+    .nav-link{
+      color:#fff;
+      text-decoration:none;
+      padding:8px 12px;
+      border-radius:10px;
+      font-weight:800;
+      font-size:14px;
+    }
+
+    .nav-link:hover,
+    .nav-link.active{
+      background:rgba(242,194,48,.22);
+      color:#fff;
+    }
+
+    header{
+      background:
+        radial-gradient(circle at top left, rgba(242,194,48,.24), transparent 32%),
+        linear-gradient(135deg,var(--azul),var(--verde2));
+      color:#fff;
+      text-align:center;
+      padding:26px 12px 22px;
+    }
+
+    .brand-box{
+      max-width:1000px;
+      margin:0 auto;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+
+    .brand-logo{
+      width:110px;
+      height:110px;
+      object-fit:contain;
+      border-radius:18px;
+      background:#fff;
+      padding:8px;
+      box-shadow:0 10px 26px rgba(0,0,0,.25);
+    }
+
+    .brand-text{
+      text-align:left;
+      max-width:700px;
+    }
+
+    header h1{
+      font-size:36px;
+      margin-bottom:6px;
+      line-height:1.15;
+      text-transform:uppercase;
+      letter-spacing:.5px;
+    }
+
+    header p{
+      font-size:17px;
+      opacity:.96;
+      color:#fff;
+    }
+
+    .selo-editorial{
+      display:inline-block;
+      margin-top:10px;
+      background:var(--dourado);
+      color:#111;
+      padding:6px 13px;
+      border-radius:999px;
+      font-weight:900;
+      font-size:12px;
+      text-transform:uppercase;
+      letter-spacing:.4px;
+    }
+
+    .seo-intro{
+      max-width:1400px;
+      margin:14px auto 0;
+      padding:0 16px;
+      color:#4b5563;
+      font-size:15px;
+    }
+
+    #contadorAcessos{
+      max-width:1400px;
+      margin:12px auto 0;
+      padding:0 16px;
+      color:#5f6b7a;
+      font-size:14px;
+    }
+
+    .alerta-topo{
+      max-width:1400px;
+      margin:18px auto 0;
+      padding:0 16px;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:14px;
+    }
+
+    .alerta-box{
+      background:#fff;
+      border-radius:16px;
+      box-shadow:var(--shadow);
+      padding:18px;
+      border-left:6px solid var(--dourado);
+    }
+
+    .alerta-box h3{
+      color:var(--azul);
+      font-size:18px;
+      margin-bottom:8px;
+    }
+
+    .alerta-box p{
+      color:#4c5663;
+      font-size:15px;
+    }
+
+    .alerta-box a{
+      color:var(--azul);
+      font-weight:900;
+      text-decoration:none;
+    }
+
+    .layout{
+      max-width:1400px;
+      margin:24px auto;
+      padding:0 16px;
+      display:grid;
+      grid-template-columns:minmax(0,1fr) 390px;
+      gap:28px;
+      align-items:start;
+    }
+
+    .section-title{
+      color:var(--azul);
+      font-size:26px;
+      display:inline-block;
+      border-bottom:4px solid var(--dourado);
+      padding-bottom:8px;
+      margin-bottom:22px;
+    }
+
+    .hero-card,
+    .card,
+    .widget,
+    .ad-card{
+      background:#fff;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+
+    .hero-card{
+      margin-bottom:28px;
+      cursor:pointer;
+      transition:.25s;
+      border-top:5px solid var(--dourado);
+    }
+
+    .hero-card:hover,
+    .card:hover,
+    .ad-card:hover{
+      transform:translateY(-6px);
+    }
+
+    .hero-card img{
+      width:100%;
+      height:300px;
+      object-fit:cover;
+      display:block;
+    }
+
+    .hero-content{
+      padding:22px;
+    }
+
+    .hero-content h2{
+      font-size:32px;
+      line-height:1.25;
+      margin-bottom:10px;
+      color:var(--azul);
+    }
+
+    .meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-bottom:12px;
+      font-size:14px;
+      color:var(--muted);
+    }
+
+    .badge{
+      display:inline-block;
+      background:linear-gradient(135deg,var(--azul),var(--verde));
+      color:#fff;
+      border-radius:999px;
+      padding:5px 12px;
+      font-size:12px;
+      font-weight:900;
+      text-transform:uppercase;
+    }
+
+    .news-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(295px,1fr));
+      gap:22px;
+    }
+
+    .card{
+      cursor:pointer;
+      transition:.28s;
+      border-bottom:4px solid transparent;
+    }
+
+    .card:hover{
+      border-bottom-color:var(--dourado);
+    }
+
+    .card img{
+      width:100%;
+      height:190px;
+      object-fit:cover;
+      display:block;
+    }
+
+    .card-content{
+      padding:18px;
+    }
+
+    .card h3{
+      font-size:20px;
+      line-height:1.35;
+      margin:10px 0 8px;
+      color:#1f2937;
+    }
+
+    .card p{
+      color:var(--muted);
+      font-size:15px;
+    }
+
+    .sidebar{
+      position:sticky;
+      top:58px;
+    }
+
+    .widget{
+      padding:18px;
+      margin-bottom:18px;
+    }
+
+    .widget h3{
+      color:var(--azul);
+      margin-bottom:14px;
+      font-size:20px;
+      border-bottom:2px solid var(--dourado);
+      padding-bottom:7px;
+    }
+
+    .widget ul{
+      list-style:none;
+    }
+
+    .widget li{
+      padding:10px 0;
+      border-bottom:1px solid #ececec;
+      font-size:15px;
+      color:#39424e;
+    }
+
+    .widget li:last-child{
+      border-bottom:none;
+    }
+
+    .widget a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    .widget a:hover{
+      color:var(--verde);
+    }
+
+    .ad-card{
+      display:block;
+      text-decoration:none;
+      color:inherit;
+      margin-bottom:20px;
+      transition:.28s ease;
+      border:1px solid rgba(7,27,61,.08);
+    }
+
+    .ad-card img{
+      width:100%;
+      height:340px;
+      display:block;
+      object-fit:cover;
+      background:#071226;
+    }
+
+    .ad-caption{
+      padding:16px;
+      background:#fff;
+    }
+
+    .ad-caption h4{
+      color:var(--azul);
+      font-size:20px;
+      line-height:1.35;
+      margin-bottom:7px;
+    }
+
+    .ad-caption p{
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.55;
+    }
+
+    .ad-tag{
+      display:inline-block;
+      background:var(--dourado);
+      color:#111;
+      padding:5px 10px;
+      border-radius:999px;
+      font-size:11px;
+      font-weight:900;
+      text-transform:uppercase;
+      margin-bottom:8px;
+    }
+
+    .bloco-anuncio{
+      background:#fff;
+      border-radius:16px;
+      box-shadow:var(--shadow);
+      padding:22px;
+      color:#39424e;
+      font-weight:700;
+      margin-bottom:18px;
+      border-left:6px solid var(--verde);
+    }
+
+    .bloco-anuncio strong{
+      color:var(--azul);
+    }
+
+    .bloco-anuncio a{
+      color:var(--verde);
+      text-decoration:none;
+      font-weight:900;
+    }
+
+    .aviso-pesquisa{
+      background:#fff9df;
+      border:1px solid #f1d36b;
+      color:#443300;
+      padding:14px;
+      border-radius:14px;
+      font-size:14px;
+      line-height:1.55;
+      margin-bottom:18px;
+    }
+
+    .detail{
+      max-width:950px;
+      margin:40px auto;
+      background:#fff;
+      border-radius:18px;
+      box-shadow:var(--shadow);
+      padding:34px 28px;
+      display:none;
+    }
+
+    .back-btn{
+      border:none;
+      background:linear-gradient(135deg,var(--azul),var(--verde));
+      color:#fff;
+      padding:12px 20px;
+      border-radius:10px;
+      font-weight:900;
+      cursor:pointer;
+      margin-bottom:20px;
+    }
+
+    .detail img{
+      width:100%;
+      max-height:520px;
+      object-fit:cover;
+      border-radius:14px;
+      margin:12px 0 22px;
+    }
+
+    .detail h1{
+      color:var(--azul);
+      font-size:31px;
+      line-height:1.28;
+      margin-bottom:14px;
+    }
+
+    .detail p{
+      font-size:17px;
+      color:#404040;
+      margin-bottom:16px;
+    }
+
+    .footer-parceiros{
+      max-width:1400px;
+      margin:36px auto 0;
+      padding:0 16px;
+    }
+
+    .footer-parceiros h2{
+      color:var(--azul);
+      text-align:center;
+      margin-bottom:18px;
+      font-size:26px;
+    }
+
+    .footer-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:16px;
+    }
+
+    .footer-card{
+      background:#fff;
+      border-radius:16px;
+      box-shadow:var(--shadow);
+      padding:18px;
+      text-align:center;
+      text-decoration:none;
+      color:#222;
+      transition:.25s;
+      border-top:4px solid var(--dourado);
+    }
+
+    .footer-card:hover{
+      transform:translateY(-5px);
+    }
+
+    .footer-card strong{
+      display:block;
+      color:var(--azul);
+      font-size:18px;
+      margin-bottom:5px;
+    }
+
+    .footer-cta{
+      max-width:1400px;
+      margin:28px auto 18px;
+      display:flex;
+      justify-content:center;
+      gap:12px;
+      flex-wrap:wrap;
+      padding:0 16px;
+    }
+
+    .footer-cta a{
+      text-decoration:none;
+      color:#fff;
+      padding:14px 20px;
+      border-radius:12px;
+      font-weight:900;
+      min-width:220px;
+      text-align:center;
+      transition:.25s;
+    }
+
+    .footer-cta a:hover{
+      transform:translateY(-3px);
+    }
+
+    .btn-portal{background:linear-gradient(135deg,var(--azul),var(--verde));}
+    .btn-db{background:linear-gradient(135deg,#0a45ff,#121c4e);}
+    .btn-gabarito{background:linear-gradient(135deg,#ff9800,#c76a00);}
+    .btn-matriz{background:linear-gradient(135deg,#008037,#003f1f);}
+
+    .botao-simulados-fixo{
+      position:fixed;
+      right:18px;
+      bottom:18px;
+      z-index:9999;
+      background:linear-gradient(135deg,var(--azul),var(--verde));
+      color:#fff;
+      text-decoration:none;
+      padding:14px 18px;
+      border-radius:999px;
+      font-weight:900;
+      box-shadow:0 10px 24px rgba(0,0,0,.22);
+    }
+
+    footer{
+      background:#0b0f17;
+      color:#d3d3d3;
+      text-align:center;
+      padding:34px 16px;
+      margin-top:40px;
+      border-top:4px solid var(--dourado);
+    }
+
+    footer p{
+      margin:4px 0;
+    }
+
+    @media(max-width:1200px){
+      .layout{grid-template-columns:1fr;}
+      .sidebar{position:static;}
+    }
+
+    @media(max-width:768px){
+      .brand-box{
+        flex-direction:column;
+      }
+
+      .brand-text{
+        text-align:center;
+      }
+
+      .brand-logo{
+        width:96px;
+        height:96px;
+      }
+
+      header h1{
+        font-size:27px;
+      }
+
+      header p{
+        font-size:15px;
+      }
+
+      .layout{
+        margin:18px auto;
+      }
+
+      .hero-card img{
+        height:240px;
+      }
+
+      .hero-content h2{
+        font-size:24px;
+      }
+
+      .card img{
+        height:190px;
+      }
+
+      .ad-card img{
+        height:310px;
+      }
+
+      .detail{
+        padding:24px 18px;
+      }
+
+      .detail h1{
+        font-size:25px;
+      }
+
+      .seo-intro{
+        font-size:14px;
+      }
+
+      .footer-cta a{
+        width:100%;
+        max-width:360px;
+        min-width:unset;
+      }
+
+      .botao-simulados-fixo{
+        right:12px;
+        bottom:12px;
+        padding:12px 16px;
+        font-size:14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="ticker-wrapper">
+    <div class="ticker-label">Radar Político</div>
+    <div class="ticker-container">
+      <div class="ticker-content" id="tickerNoticias"></div>
+    </div>
+  </div>
+
+  <nav>
+    <div class="nav-container" id="menuCategorias">
+      <a href="#" class="nav-link active" data-categoria="Todas">Início</a>
+    </div>
+  </nav>
+
+  <header>
+    <div class="brand-box">
+      <img class="brand-logo" src="radar-conservador-brasil-logo.png" alt="Radar Conservador Brasil">
+
+      <div class="brand-text">
+        <h1>Radar Conservador Brasil</h1>
+        <p>Notícias, política, eleições e opinião com visão conservadora.</p>
+        <span class="selo-editorial">Política • Eleições • Congresso • Brasil</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="seo-intro">
+    O <strong>Radar Conservador Brasil</strong> acompanha política nacional, eleições 2026, pesquisas eleitorais registradas, Congresso, Governo, regiões do Brasil, educação, concursos e qualificação profissional.
+  </div>
+
+  <div id="contadorAcessos">Carregando acessos...</div>
+
+  <section class="alerta-topo">
+    <div class="alerta-box">
+      <h3>🗳️ Eleições 2026</h3>
+      <p>Cobertura nacional sobre articulações, pré-candidatos, partidos, alianças e bastidores eleitorais.</p>
+    </div>
+
+    <div class="alerta-box">
+      <h3>📊 Pesquisas registradas</h3>
+      <p>Análises com atenção a registro, metodologia, margem de erro, data de coleta e fonte responsável.</p>
+    </div>
+
+    <div class="alerta-box">
+      <h3>📚 Educação e qualificação</h3>
+      <p>Espaço para ENEM, concursos, carreira e preparação profissional com apoio das plataformas parceiras.</p>
+    </div>
+  </section>
+
+  <div class="layout" id="homePage">
+    <main>
+      <section id="areaDestaque"></section>
+
+      <h2 class="section-title">Últimas notícias</h2>
+      <div class="news-grid" id="listaNoticias"></div>
+    </main>
+
+    <aside class="sidebar">
+
+      <div class="aviso-pesquisa">
+        <strong>📌 Aviso editorial:</strong> o Radar Conservador Brasil diferencia opinião, análise, enquete e pesquisa eleitoral registrada. Pesquisas eleitorais devem observar as regras da Justiça Eleitoral e apresentar fonte, metodologia e registro quando aplicável.
+      </div>
+
+      <a class="ad-card" href="https://cincoregioes-star.github.io/DB-ENEM/" target="_blank" rel="noopener noreferrer">
+        <img src="db-enem-parceiro.png" alt="DB ENEM - Simulados ENEM 2026">
+        <div class="ad-caption">
+          <span class="ad-tag">ENEM 2026</span>
+          <h4>DB ENEM</h4>
+          <p>Simulados digitais para ENEM com disciplinas, treino por área, teste grátis e preparação completa.</p>
+        </div>
+      </a>
+
+      <a class="ad-card" href="https://cincoregioes-star.github.io/oficial-portal-gabaritomax/" target="_blank" rel="noopener noreferrer">
+        <img src="gabarito-max-parceiro.png" alt="Gabarito Max - Simulados de Concursos">
+        <div class="ad-caption">
+          <span class="ad-tag">Concursos</span>
+          <h4>Gabarito Max</h4>
+          <p>Simulados para concursos, INSS, Câmara Municipal, área administrativa e preparação profissional.</p>
+        </div>
+      </a>
+
+      <a class="ad-card" href="https://cincoregioes-star.github.io/matriz-educacional/" target="_blank" rel="noopener noreferrer">
+        <img src="matriz-educacional-parceiro.png" alt="MATRIZ Educacional - Redação ENEM e preparação">
+        <div class="ad-caption">
+          <span class="ad-tag">Qualificação</span>
+          <h4>MATRIZ Educacional</h4>
+          <p>Preparação com foco em redação, repertório, estrutura textual, estudos, ENEM e concursos.</p>
+        </div>
+      </a>
+
+      <div class="bloco-anuncio">
+        📢 <strong>Anuncie no Radar Conservador Brasil</strong><br>
+        Espaço para marcas, cursos, serviços, eventos, divulgação institucional e campanhas dentro das regras legais.<br>
+        Contato: <a href="mailto:reinetrindadeeterna@gmail.com">reinetrindadeeterna@gmail.com</a>
+      </div>
+
+      <div class="widget">
+        <h3>Mais lidas</h3>
+        <ul id="maisLidas"></ul>
+      </div>
+
+      <div class="widget">
+        <h3>Categorias</h3>
+        <ul id="listaCategorias"></ul>
+      </div>
+    </aside>
+  </div>
+
+  <section class="detail" id="paginaNoticia"></section>
+
+  <section class="footer-parceiros">
+    <h2>Plataformas parceiras</h2>
+
+    <div class="footer-grid">
+      <a class="footer-card" href="https://cincoregioes-star.github.io/DB-ENEM/" target="_blank" rel="noopener noreferrer">
+        <strong>DB ENEM</strong>
+        Simulados ENEM 2026 e preparação por disciplina.
+      </a>
+
+      <a class="footer-card" href="https://cincoregioes-star.github.io/oficial-portal-gabaritomax/" target="_blank" rel="noopener noreferrer">
+        <strong>Gabarito Max</strong>
+        Simulados para concursos, INSS, Câmara e provas administrativas.
+      </a>
+
+      <a class="footer-card" href="https://cincoregioes-star.github.io/matriz-educacional/" target="_blank" rel="noopener noreferrer">
+        <strong>MATRIZ Educacional</strong>
+        Redação, ENEM, concursos e qualificação educacional.
+      </a>
+
+      <a class="footer-card" href="https://cincoregioes-star.github.io/site_noticias_beberibe_oficial_3/" target="_blank" rel="noopener noreferrer">
+        <strong>Radar Conservador Brasil</strong>
+        Notícias, política, eleições e opinião com visão conservadora.
+      </a>
+    </div>
+  </section>
+
+  <div class="footer-cta">
+    <a href="https://cincoregioes-star.github.io/site_noticias_beberibe_oficial_3/" class="btn-portal" target="_blank" rel="noopener noreferrer">Radar Conservador Brasil</a>
+    <a href="https://cincoregioes-star.github.io/DB-ENEM/" class="btn-db" target="_blank" rel="noopener noreferrer">Simulados ENEM</a>
+    <a href="https://cincoregioes-star.github.io/oficial-portal-gabaritomax/" class="btn-gabarito" target="_blank" rel="noopener noreferrer">Simulados Concursos</a>
+    <a href="https://cincoregioes-star.github.io/matriz-educacional/" class="btn-matriz" target="_blank" rel="noopener noreferrer">MATRIZ Educacional</a>
+  </div>
+
+  <footer>
+    <p><strong>Radar Conservador Brasil</strong></p>
+    <p>Notícias, política, eleições e opinião com visão conservadora.</p>
+    <p>📲 Portal: https://cincoregioes-star.github.io/site_noticias_beberibe_oficial_3/</p>
+    <p>📚 Simulados ENEM: https://cincoregioes-star.github.io/DB-ENEM/</p>
+    <p>📝 Simulados concursos: https://cincoregioes-star.github.io/oficial-portal-gabaritomax/</p>
+  </footer>
+
+  <a href="https://cincoregioes-star.github.io/oficial-portal-gabaritomax/" class="botao-simulados-fixo" target="_blank" rel="noopener noreferrer">Concursos</a>
+
+  <script src="noticias.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
