@@ -399,6 +399,118 @@ const bancoNoticias = [
     "Outro ponto importante é observar a região pesquisada e se a amostra representa o universo eleitoral analisado.",
     "O Radar Conservador Brasil vai explicar os números de forma simples, direta e responsável para o público."
   ]
+},
+
+{
+  id: 26,
+  titulo: "📚 ENEM 2026: estudantes devem transformar calendário em rotina de preparação",
+  data: "2026-05-01",
+  categoria: "ENEM e Educação",
+  imagem: "https://images.pexels.com/photos/4145196/pexels-photo-4145196.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  resumo: "Com prazos do ENEM em andamento, treino por disciplina pode ajudar estudantes a ganhar desempenho antes da prova.",
+  conteudo: [
+    "O ENEM 2026 já entrou no radar de estudantes de todo o país, especialmente para quem busca universidade pública, bolsa de estudo ou financiamento estudantil.",
+    "O Inep mantém a Página do Participante como canal central para pedidos, consultas e acompanhamento de etapas do exame, incluindo isenção e justificativas.",
+    "Para quem deseja chegar mais preparado, a estratégia mais segura é transformar o calendário em rotina de estudo, com revisão, resolução de questões e simulados por área.",
+    "O treino por disciplina ajuda o aluno a identificar pontos fracos em matemática, linguagens, ciências humanas, ciências da natureza e redação.",
+    "O estudante pode iniciar sua preparação pelo DB ENEM: <a href='https://cincoregioes-star.github.io/DB-ENEM/' target='_blank' rel='noopener noreferrer'>acessar simulados ENEM</a>."
+  ]
+},
+
+{
+  id: 27,
+  titulo: "✍️ Redação do ENEM pode decidir aprovação e exige treino antes da reta final",
+  data: "2026-05-01",
+  categoria: "ENEM e Educação",
+  imagem: "https://images.pexels.com/photos/4778621/pexels-photo-4778621.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  resumo: "Texto dissertativo-argumentativo exige estrutura, repertório, interpretação do tema e proposta de intervenção.",
+  conteudo: [
+    "A redação continua sendo uma das etapas mais importantes do ENEM, porque pode elevar ou reduzir fortemente a nota final do estudante.",
+    "O candidato precisa dominar introdução, desenvolvimento, conclusão, repertório sociocultural, coesão, coerência e proposta de intervenção.",
+    "A prática frequente ajuda a evitar erros comuns, como fuga ao tema, repertório decorado sem ligação com a tese e conclusão fraca.",
+    "Além de estudar modelos prontos, é importante escrever, revisar e comparar a estrutura do texto com os critérios cobrados na prova.",
+    "Quem deseja melhorar redação, interpretação e organização de estudos pode acessar a MATRIZ Educacional: <a href='https://cincoregioes-star.github.io/matriz-educacional/' target='_blank' rel='noopener noreferrer'>acessar MATRIZ Educacional</a>."
+  ]
+},
+
+{
+  id: 28,
+  titulo: "📊 Concurso INSS 2026: pedido de 8.500 vagas mantém candidatos em alerta",
+  data: "2026-05-01",
+  categoria: "Concursos e Qualificação",
+  imagem: "https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  resumo: "Pedido contempla oportunidades para Técnico e Analista do Seguro Social, aumentando expectativa entre concurseiros.",
+  conteudo: [
+    "O concurso INSS 2026 segue entre os mais acompanhados do país, especialmente por candidatos interessados em estabilidade e carreira pública.",
+    "O pedido em análise contempla 8.500 vagas, sendo 7.000 para Técnico do Seguro Social e 1.500 para Analista do Seguro Social.",
+    "Mesmo antes da autorização final, a preparação antecipada pode fazer diferença, já que concursos desse porte costumam atrair forte concorrência.",
+    "Disciplinas como português, informática, direito previdenciário, ética, raciocínio lógico e legislação aplicada ao órgão devem estar no radar dos candidatos.",
+    "Quem deseja treinar pode acessar simulados pelo Gabarito Max: <a href='https://cincoregioes-star.github.io/oficial-portal-gabaritomax/' target='_blank' rel='noopener noreferrer'>acessar Gabarito Max</a>."
+  ]
+},
+
+{
+  id: 29,
+  titulo: "📝 Concursos 2026: preparação antecipada vira vantagem para quem mira vaga pública",
+  data: "2026-05-01",
+  categoria: "Concursos e Qualificação",
+  imagem: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  resumo: "Candidatos devem priorizar português, matemática, informática, legislação e resolução de questões.",
+  conteudo: [
+    "O ano de 2026 deve manter forte movimentação no setor de concursos públicos, com seleções previstas, pedidos em análise e editais em andamento.",
+    "A preparação antecipada permite que o candidato construa base sólida antes da publicação do edital, reduzindo a pressão da reta final.",
+    "Português, matemática, raciocínio lógico, informática, legislação, administração pública e conhecimentos específicos são áreas frequentes em várias seleções.",
+    "A rotina ideal combina teoria, questões comentadas, revisão, simulados e análise de erros para ajustar o desempenho.",
+    "Para quem deseja treinar com foco em provas, o Gabarito Max reúne simulados e materiais de preparação: <a href='https://cincoregioes-star.github.io/oficial-portal-gabaritomax/' target='_blank' rel='noopener noreferrer'>acessar simulados de concursos</a>."
+  ]
+},
+
+{
+  id: 30,
+  titulo: "🇧🇷 Flávio Bolsonaro ganha protagonismo na direita para 2026",
+  data: "2026-05-01",
+  categoria: "Eleições 2026",
+  imagem: "https://images.pexels.com/photos/1550340/pexels-photo-1550340.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  resumo: "Senador aparece como nome de peso no campo conservador e deve ocupar espaço central nas articulações eleitorais.",
+  conteudo: [
+    "O senador Flávio Bolsonaro ganhou protagonismo no cenário político nacional em meio às movimentações da direita para as eleições de 2026.",
+    "O nome de Flávio aparece no debate público como uma das principais apostas do campo conservador para enfrentar o projeto de reeleição do atual governo.",
+    "A estratégia da direita passa por manter mobilizada a base bolsonarista e, ao mesmo tempo, dialogar com eleitores de centro, setores produtivos e grupos preocupados com segurança pública.",
+    "A presença de Flávio no tabuleiro nacional deve influenciar alianças, discursos, palanques estaduais e disputas para o Congresso.",
+    "O Radar Conservador Brasil seguirá acompanhando pesquisas registradas, movimentações partidárias e bastidores da direita no caminho para 2026."
+  ]
+},
+
+{
+  id: 31,
+  titulo: "⚖️ Rejeição de Messias ao STF e derrubada do veto da dosimetria impõem derrota ao governo",
+  data: "2026-05-01",
+  categoria: "Congresso e Governo",
+  imagem: "https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  resumo: "Congresso amplia pressão sobre o governo após rejeição de indicação ao STF e derrubada de veto ligado à dosimetria.",
+  conteudo: [
+    "O governo sofreu uma sequência de derrotas políticas em Brasília com a rejeição da indicação de Jorge Messias ao Supremo Tribunal Federal e a derrubada do veto ao PL da dosimetria.",
+    "A rejeição de Messias ao STF teve grande peso institucional e abriu debate sobre articulação política, força do Senado e desgaste da base governista.",
+    "No mesmo ambiente de tensão, o Congresso derrubou veto ligado à dosimetria, alterando regras de cálculo de penas para crimes contra o Estado Democrático de Direito.",
+    "A movimentação mostra um Congresso mais independente e com forte presença de parlamentares de centro e direita em votações sensíveis ao governo.",
+    "Para o campo conservador, o episódio reforça a importância de acompanhar a composição do Senado, da Câmara e das articulações em torno do Judiciário."
+  ]
+},
+
+{
+  id: 32,
+  titulo: "🌍 Copa do Mundo 2026 terá novo formato e já movimenta torcedores",
+  data: "2026-05-01",
+  categoria: "Copa do Mundo",
+  imagem: "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=1400",
+  resumo: "Mundial terá 48 seleções, três países-sede e calendário ampliado; torcedores já podem testar seus conhecimentos.",
+  conteudo: [
+    "A Copa do Mundo de 2026 será histórica por marcar a estreia do formato com 48 seleções, ampliando o número de países participantes.",
+    "O torneio será realizado em três países: Canadá, Estados Unidos e México, com calendário ampliado e 104 jogos previstos.",
+    "O novo modelo deve gerar mais confrontos, mais possibilidades de classificação e maior interesse dos torcedores por seleções tradicionais e equipes estreantes.",
+    "Além da expectativa pela Seleção Brasileira, temas como história das Copas, países-sede, artilheiros, regras, curiosidades e estatísticas devem ganhar força entre estudantes e fãs de futebol.",
+    "Quem quiser testar seus conhecimentos pode acessar o simulado da Copa no Gabarito Max: <a href='https://cincoregioes-star.github.io/oficial-portal-gabaritomax/' target='_blank' rel='noopener noreferrer'>acessar Gabarito Max</a>."
+  ]
 }
 
 ];
