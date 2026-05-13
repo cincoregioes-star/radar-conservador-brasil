@@ -157,7 +157,7 @@ RadarCopaParceiro.registrarSimulado({
       <div style="font-weight:900;font-size:16px;margin-bottom:5px;">🎁 Radar Copa</div>
       <div>${item.descricao}</div>
       <div style="margin-top:8px;font-weight:900;color:#ffd54a;">+${total} figurinha(s) para resgatar no álbum</div>
-      <a href="https://cincoregioes-star.github.io/RADAR%20COPA%202026%20COM%20%C3%81LBUM/album/index.html" style="display:inline-block;margin-top:10px;background:#ffd54a;color:#111827;padding:8px 12px;border-radius:999px;text-decoration:none;font-weight:900;">Abrir álbum</a>
+      <a href="https://dev-orient-social.github.io/radar-copa-2026-com-album/album/index.html" style="display:inline-block;margin-top:10px;background:#ffd54a;color:#111827;padding:8px 12px;border-radius:999px;text-decoration:none;font-weight:900;">Abrir álbum</a>
     `;
     div.style.cssText = "position:fixed;right:16px;bottom:16px;z-index:999999;max-width:330px;background:linear-gradient(145deg,#06142e,#0b3d91);color:#fff;border:2px solid #ffd54a;border-radius:18px;padding:16px;box-shadow:0 16px 38px rgba(0,0,0,.35);font-family:Arial,sans-serif;";
     document.body.appendChild(div);
