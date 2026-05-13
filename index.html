@@ -600,6 +600,39 @@
     .btn-gabarito{background:linear-gradient(135deg,#ff9800,#c76a00);}
     .btn-matriz{background:linear-gradient(135deg,#008037,#003f1f);}
 
+
+    .radar-copa-chamada{
+      max-width:1400px;
+      margin:18px auto 0;
+      padding:0 16px;
+    }
+    .radar-copa-box{
+      background:
+        radial-gradient(circle at top left, rgba(242,194,48,.30), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(0,151,57,.22), transparent 28%),
+        linear-gradient(135deg,#071b3d,#102f63 52%,#064725);
+      color:#fff;
+      border-radius:22px;
+      box-shadow:var(--shadow);
+      padding:26px;
+      border:2px solid rgba(242,194,48,.58);
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:22px;
+      align-items:center;
+    }
+    .radar-copa-box h2{font-size:30px;line-height:1.15;margin-bottom:8px;color:#f2c230;}
+    .radar-copa-box p{color:#f4f6f8;font-size:16px;margin-bottom:16px;}
+    .radar-copa-botoes{display:flex;gap:12px;flex-wrap:wrap;}
+    .radar-copa-botoes a{text-decoration:none;padding:13px 18px;border-radius:999px;font-weight:900;display:inline-flex;align-items:center;justify-content:center;transition:.25s;}
+    .radar-copa-botoes a:hover{transform:translateY(-3px);}
+    .btn-radar-copa-album{background:var(--dourado);color:#111;}
+    .btn-radar-copa-site{background:#009739;color:#fff;border:1px solid rgba(255,255,255,.25);}
+    .btn-radar-copa-gratis{background:#fff;color:var(--azul);}
+    .radar-copa-regras{display:grid;gap:10px;}
+    .radar-copa-regras div{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);border-radius:16px;padding:13px;font-weight:800;color:#fff;}
+    .radar-copa-regras b{color:#f2c230;}
+
     .botao-simulados-fixo{
       position:fixed;
       right:18px;
@@ -647,7 +680,45 @@
       .detail h1{font-size:25px;}
       .seo-intro{font-size:14px;}
       .footer-cta a{width:100%;max-width:360px;min-width:unset;}
-      .botao-simulados-fixo{
+
+      .radar-copa-box{grid-template-columns:1fr;padding:20px;}
+      .radar-copa-box h2{font-size:24px;}
+      .radar-copa-botoes a{width:100%;}
+
+  
+    .radar-copa-chamada{
+      max-width:1400px;
+      margin:18px auto 0;
+      padding:0 16px;
+    }
+    .radar-copa-box{
+      background:
+        radial-gradient(circle at top left, rgba(242,194,48,.30), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(0,151,57,.22), transparent 28%),
+        linear-gradient(135deg,#071b3d,#102f63 52%,#064725);
+      color:#fff;
+      border-radius:22px;
+      box-shadow:var(--shadow);
+      padding:26px;
+      border:2px solid rgba(242,194,48,.58);
+      display:grid;
+      grid-template-columns:1.1fr .9fr;
+      gap:22px;
+      align-items:center;
+    }
+    .radar-copa-box h2{font-size:30px;line-height:1.15;margin-bottom:8px;color:#f2c230;}
+    .radar-copa-box p{color:#f4f6f8;font-size:16px;margin-bottom:16px;}
+    .radar-copa-botoes{display:flex;gap:12px;flex-wrap:wrap;}
+    .radar-copa-botoes a{text-decoration:none;padding:13px 18px;border-radius:999px;font-weight:900;display:inline-flex;align-items:center;justify-content:center;transition:.25s;}
+    .radar-copa-botoes a:hover{transform:translateY(-3px);}
+    .btn-radar-copa-album{background:var(--dourado);color:#111;}
+    .btn-radar-copa-site{background:#009739;color:#fff;border:1px solid rgba(255,255,255,.25);}
+    .btn-radar-copa-gratis{background:#fff;color:var(--azul);}
+    .radar-copa-regras{display:grid;gap:10px;}
+    .radar-copa-regras div{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);border-radius:16px;padding:13px;font-weight:800;color:#fff;}
+    .radar-copa-regras b{color:#f2c230;}
+
+    .botao-simulados-fixo{
         right:12px;
         bottom:12px;
         padding:12px 16px;
@@ -689,6 +760,30 @@
   </div>
 
   <div id="contadorAcessos">Carregando acessos...</div>
+
+  <section class="radar-copa-chamada" id="radarCopaRecompensa">
+    <div class="radar-copa-box">
+      <div>
+        <h2>🎁 Radar Copa 2026: ganhe figurinhas acessando o Radar Conservador</h2>
+        <p>
+          O <strong>Radar Conservador Brasil</strong> agora faz parte dos sites parceiros do álbum
+          <strong>História em Campo 2026</strong>. Acesse pelo Radar Copa, leia as notícias
+          e volte ao álbum para verificar suas recompensas.
+        </p>
+        <div class="radar-copa-botoes">
+          <a class="btn-radar-copa-album" href="https://cincoregioes-star.github.io/RADAR%20COPA%202026%20COM%20%C3%81LBUM/album/index.html" target="_blank" rel="noopener noreferrer">Abrir Álbum</a>
+          <a class="btn-radar-copa-site" href="https://cincoregioes-star.github.io/RADAR%20COPA%202026%20COM%20%C3%81LBUM/copa.html" target="_blank" rel="noopener noreferrer">Acessar Radar Copa</a>
+          <a class="btn-radar-copa-gratis" href="https://cincoregioes-star.github.io/RADAR%20COPA%202026%20COM%20%C3%81LBUM/album/index.html#resgates" target="_blank" rel="noopener noreferrer">Verificar recompensa</a>
+        </div>
+      </div>
+      <div class="radar-copa-regras">
+        <div><b>Acessou pelo Radar Copa:</b> ganha 1 figurinha grátis.</div>
+        <div><b>Parceiros premium:</b> qualquer versão premium libera +10 pacotes.</div>
+        <div><b>Ecossistema:</b> Gabarito Max, DB ENEM, Matriz Educacional e Radar Conservador.</div>
+      </div>
+    </div>
+  </section>
+
 
   <section class="alerta-topo">
     <div class="alerta-box">
@@ -813,5 +908,6 @@
 
   <script src="noticias.js"></script>
   <script src="script.js"></script>
+  <script src="radar-copa-parceiro.js"></script>
 </body>
 </html>
